@@ -5,6 +5,8 @@ VisualStudioVersion = 17.13.35913.81 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mighty", "Mighty\Mighty.csproj", "{73AC8935-02F8-4129-B969-A21B8CFA8A8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MightyMapper", "MightyMapper\MightyMapper.csproj", "{B6D67E09-02C8-4FF0-809F-3DE74B92625B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{73AC8935-02F8-4129-B969-A21B8CFA8A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73AC8935-02F8-4129-B969-A21B8CFA8A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73AC8935-02F8-4129-B969-A21B8CFA8A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D67E09-02C8-4FF0-809F-3DE74B92625B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D67E09-02C8-4FF0-809F-3DE74B92625B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D67E09-02C8-4FF0-809F-3DE74B92625B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D67E09-02C8-4FF0-809F-3DE74B92625B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
