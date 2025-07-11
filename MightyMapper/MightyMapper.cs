@@ -23,7 +23,7 @@ namespace MightyMapper
                 if (MightyMapperRuleList.Any(x => x.GetDestinationPropertyInfo() == property))
                     continue;
 
-                if (hashTable.TryGetValue(property.Name + property.PropertyType.ToString(), out dynamic value))
+                if (hashTable.TryGetValue(property.Name + property.PropertyType.ToString(), out var value))
                     property.SetValue(to, value);
             }
 
